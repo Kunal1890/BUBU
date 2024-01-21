@@ -1,0 +1,65 @@
+body{
+    position: absolute;
+   
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/Val.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+
+
+
+
+.buttons{
+    margin: 20px 30px;
+    padding: 20px 30px;
+    display: inline-flex;
+    align-items: center;
+justify-content: center;
+}
+
+
+#yes-btn{
+    width: 300px;
+    /* display: block; */
+}
+#no-btn{
+    /* display: inline-block; */
+    position: relative;
+    
+}
+
+#centre-panel{
+    background-image: url('/cat-please.gif');
+    align-items:flex-end;
+
+    justify-content: center;
+    display: flex;
+    
+    height: 500px;
+    width: 498px;
+    /* flex-direction:  ; */
+}
+
+textarea {
+    padding: 2px 5px;
+    display: block;
+    border: 1px solid #BBB;
+    color: #444;
+    font-size: 110%;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+
+  .txtarea{
+    margin: 5px 2px;
+    padding: 2px 5px ;
+  }
